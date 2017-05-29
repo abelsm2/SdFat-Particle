@@ -57,7 +57,7 @@
  * find(), findUntil(), readBytesUntil(), readString(), readStringUntil(),
  * parseInt(), and parseFloat().
  */
-#define ARDUINO_FILE_USES_STREAM 1
+#define ARDUINO_FILE_USES_STREAM 0
 //------------------------------------------------------------------------------
 /**
  * The symbol SD_SPI_CONFIGURATION defines SPI access to the SD card.
@@ -79,7 +79,7 @@
  * template parameters define the software SPI pins.  See the ThreeCard
  * example for simultaneous use of all three classes.
  */
-#define SD_SPI_CONFIGURATION 3
+#define SD_SPI_CONFIGURATION 0
 //------------------------------------------------------------------------------
 /**
  * If SD_SPI_CONFIGURATION is defined to be two, these definitions
